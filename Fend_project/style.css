@@ -1,0 +1,21 @@
+.swiper {
+    width:100%;
+    height: 450px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-color:rgb(228, 99, 30);
+}
+
+#productsMain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#leftDiv img{
+    height:200px;
+}
+.nav-link:hover{
+    color: #FFD700 !important;
+}
